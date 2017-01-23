@@ -13,5 +13,5 @@ app.get('/app', (req, res) => {
 
 
 app.listen(3000, () => {
-    console.log(`Server started on post ${port}`);
+    console.log(`Server started on port ${port}`);
 });
