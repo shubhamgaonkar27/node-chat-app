@@ -7,9 +7,9 @@ var app = express();
 
 app.use(express.static(publicPath));
 
-// app.get('/', (req, res) => {
-//     res.render(publicPath + '/index.html');
-// });
+app.get('/app', (req, res) => {
+    res.send('hello');
+});
 
 
 app.listen(3000, () => {
